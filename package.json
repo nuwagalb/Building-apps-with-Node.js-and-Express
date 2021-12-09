@@ -1,0 +1,23 @@
+{
+  "name": "building-apps-with-node.js-and-express",
+  "version": "1.0.0",
+  "description": "application to practice building web apps with node.js and express framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuwagalb/Building-apps-with-Node.js-and-Express.git"
+  },
+  "keywords": [
+    "node.js",
+    "express"
+  ],
+  "author": "Albert Nuwagaba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuwagalb/Building-apps-with-Node.js-and-Express/issues"
+  },
+  "homepage": "https://github.com/nuwagalb/Building-apps-with-Node.js-and-Express#readme"
+}
