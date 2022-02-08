@@ -4,7 +4,9 @@
   "description": "application to practice building web apps with node.js and express framework",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app,app:* nodemon app.js",
+    "debug": "DEBUG=* nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,26 @@
   "bugs": {
     "url": "https://github.com/nuwagalb/Building-apps-with-Node.js-and-Express/issues"
   },
-  "homepage": "https://github.com/nuwagalb/Building-apps-with-Node.js-and-Express#readme"
+  "homepage": "https://github.com/nuwagalb/Building-apps-with-Node.js-and-Express#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "4.1.1",
+    "cookie-parser": "1.4.5",
+    "debug": "4.3.1",
+    "ejs": "3.1.6",
+    "express": "4.17.1",
+    "express-session": "1.17.1",
+    "mongodb": "3.6.6",
+    "morgan": "1.10.0",
+    "nodemon": "2.0.7",
+    "passport": "0.4.1",
+    "passport-local": "1.0.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "delay": 2500,
+    "env": {
+      "PORT": 4000
+    }
+  }
 }

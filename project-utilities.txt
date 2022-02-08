@@ -1,4 +1,54 @@
 Web Conference App
 - install dependencies
   - express
-  - 
+    - web framework that helps us to work with web apps
+  - chalk
+    - this helps us to color our log messages
+  - debug
+    - this helps us log messages in our app
+    - it takes as an argument the name of the file it is currently debbuging
+    - this only runs in the debug mode
+    - to activate debug mode, type "DEBUG=* node app.js" in terminal our
+      "DEBUG=app node app.js" to only display messages that are on our current file
+  - morgan
+    - it logs things to our console that have to do with web traffic
+    - it takes in arguments such as "combined", "tiny"
+  - path
+    - it helps work with paths on the filesystem
+    - it comes with node so we don't need to install it as a dependency
+  - nodemon
+    - used to automatically restart our application
+  -passport
+    - it deals with maintaining your user object within a given sessions.
+    - it drops the user object inside a cookie, pulls it out of the cookie,
+    - applies it to sessions, etc.
+    - helps us to work with authentication and authorization of users
+    - it is the default npm package for express to handle user management
+    - it can handle local user logins or authentication with social media sites
+  - cookie-parser
+    - this helps you work with cookies
+  - express-session
+    - this helps you work with sessions
+  - passport-local
+    - this is used to work with passport's LocalStrategy to authenticate users locally
+  -axios
+    - used to make api calls
+
+- app.use()
+  - this helps us to work with middle ware for our app. Middle ware is just a function
+
+- express.static()
+  - this helps us to work with static files that are used to display data
+
+- process.env
+  - this helps us to retrieve any value that we set up as an environment variable
+
+- templating engines
+  - help render html pages with some data in them
+  - example: ejs
+    - npm install ejs
+
+- app.set()
+  - allows us to set variables inside the context of our application
+  
+
